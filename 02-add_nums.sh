@@ -1,13 +1,11 @@
 #!/bin/sh
 
-echo "Enter your first number"
+echo "Enter your width"
 read first
-echo "Enter your second number"
+echo "Enter your height"
 read second
-echo "Enter your third number"
-read third
 
-sum=$(( first+second+third ))
+sum=$(( first+second ))
 
 echo "The sum is $sum"
 
